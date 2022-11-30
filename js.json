@@ -21,7 +21,6 @@
 {"key":"drpy_js_酷云七七","name":"影视 | 酷云七七[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/酷云77.js"},
 {"key":"drpy_js_骚火电影","name":"影视 | 骚火电影[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/骚火电影.js"},
 {"key":"drpy_js_回响影视","name":"影视 | 回响影视[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/回响影视.js"},
-{"key":"drpy_js_低端影视","name":"影视 | 低端影视[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/ddys.js"},
 {"key":"drpy_js_闪影影院","name":"影视 | 闪影影院[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/闪影影院.js"},
 {"key":"drpy_js_秋霞影院","name":"影视 | 秋霞影院[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/秋霞.js"},
 {"key":"drpy_js_DJ音乐","name":"音频 | DJ音乐[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/DJ音乐.js","playerType":"2"},
@@ -39,7 +38,6 @@
 {"key":"drpy_js_88看球","name":"体育 | 88看球[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/88看球.js"},
 {"key":"drpy_js_310直播","name":"体育 | 310直播[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/310直播.js"},
 {"key":"drpy_js_抓饭体育","name":"体育 | 抓饭体育[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/抓饭体育.js"},
-{"key":"drpy_js_学生录像","name":"体育 | 学生录像[js0]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/学生球赛录像.js"},
 {"key":"drpy_js_兔小贝","name":"动漫 | 兔小贝[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/兔小贝.js"},
 {"key":"drpy_js_AnFuns","name":"动漫 | AnFuns[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/AnFuns.js"},
 {"key":"drpy_js_AGE动漫","name":"动漫 | AGE动漫[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/AGE动漫.js"},
@@ -141,7 +139,26 @@
 {"key":"drpy_js_追剧啦儿","name":"影视 | 追剧啦儿[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/追剧啦.js"},
 {"key":"drpy_js_子子影视","name":"影视 | 子子影视[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/子子影视.js"},
 {"key":"push_agent","name":"🎯推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"55c39cb673654d2baf5929c1cbe59a95"}],
-"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9DYXQvdHYvbGl2ZS50eHQ="]}]}],
+"lives": [
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    },
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "live",
+          "urls": [
+            "proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9DYXQvdHYvbGl2ZS50eHQ="
+          ]
+        }
+      ],
+      "epg":"http://epg.51zmt.top:8000/api/diyp/"
+    }
+  ],
 "rules":[
 {"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
 {"host":"www.sharenice.net","rule":["sovv.qianpailive.com","vid="],"filter":[]},
@@ -272,5 +289,5 @@
 {"category":4,"name":"mediacodec-hevc","value":"1"},
 {"category":1,"name":"dns_cache_clear","value":"1"},
 {"category":1,"name":"dns_cache_timeout","value":"-1"}]}],
-"wallpaper":"http://www.kf666888.cn/api/tvbox/img"
+"wallpaper": "http://www.kf666888.cn/api/tvbox/img"
 }
