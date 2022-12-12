@@ -12,8 +12,8 @@ var rule = {
         // "Cookie": "searchneed=ok"
     },
     //class_parse:'.stui-header__menu li.hidden-xs;a&&Text;a&&href;/(\\d+)/',
-    class_name:'电影&剧集&综艺&动漫&伦理',
-    class_url:'1&2&4&3&6',
+    class_name:'电影&剧集&综艺&动漫',
+    class_url:'1&2&4&3',
     play_parse:true,
     lazy:'',
     limit:8,
