@@ -1,4 +1,4 @@
-{"spider":"https://raw.iqiq.io/qq925067429/JS4512/main/fm.jar?btwaf=62850611",
+{"spider":"https://raw.iqiq.io/qq925067429/JS4512/main/fm.jar",
  "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/lib/drpy2.min.js","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/drpy.js"},
 {"key":"bili","name":"B站 | Bili[jar]","type":3,"api":"csp_Bili","ext":"https://jsd.cdn.zzko.cn/gh/qq925067429/JS4512@main/js/音乐演唱.json"},
